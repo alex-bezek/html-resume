@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alex Bezek - Resume</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="Alex Bezek Resume"/>
+<meta charset="UTF-8">
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="headshot.png" alt="Alex Bezek" />
+		</div>
+
+		<div id="name">
+			<h1 class="quickFade delayTwo">Alex Bezek</h1>
+			<h2 class="quickFade delayThree">Associate Lead </h2>
+			<h2 class="quickFade delayThree">Software Engineer</h2>
+		</div>
+
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>Email: <a href="mailto:alex.liam.bezek@gmail.com" target="_blank">alex.liam.bezek@gmail.com</a></li>
+				<li>Linkedin: <a href="https://www.linkedin.com/in/alexander-bezek-b1993b100">Linkedin</a></li>
+				<li>Mobile: 913-626-1909</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>I've been a Software Engineer at Cerner for the past 6 years. During that time I've been responsible for creating and maintaining React + Rails Applications and Microservices as a Team Lead and Individual Contributor working with containerization, CI/CD, alerting and monitoring, and infrastructure management. I'm passionate about good developer tooling, automation, and service orchestration.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Associate Lead Software Engineer</h2>
+					<p class="subDetails">Sept 2019 - Present</p>
+					<p>Currently I work as a technical lead for key projects, and an individual contributor on strategic projects. I often tackle initiatives for deployment changes and new operational requirements first, creating dev tooling, documentation, and a repeatable process for other teams to consume.</p>
+				</article>
+
+				<article>
+					<h2>
+						Team Lead | Senior Software Engineer</h2>
+					<p class="subDetails">Mar 2017 - Sept 2019</p>
+					<p>I was as a team lead with direct reports and a Product Owner for a React on Rails based application. I met with vendors, clients, and other stake holders to gather requirements for the team to implement. I volunteered for this to learn React as we didn't have any senior React Engineers.</p>
+				</article>
+
+					<article>
+						<h2>Software Engineer - Associate Software Engineer</h2>
+						<p class="subDetails">Jun 2014 – Mar 2017</p>
+						<p>I started as an individual contributor adding features to new Rails Apps and Services. During this time Docker and the Container Wars were blossoming and I spent my free time exploring these systems. I joined a second team on the side to be involved with the initial Docker Automated deployments project and CI/CD pipelines using Jenkins and Spinnaker.</p>
+					</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Projects</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="projects">
+					<li>
+						<p>Tech Lead for our Vanity Domain feature allowing Clients to configure custom domain names for our apps with SSL Certificates automated via ACM</p>
+					</li>
+					<li>
+						<p>Created a custom Terraform Provider in Go for our internal services to manage service configurations in source control.</p>
+					</li>
+					<li>
+						<p>Worked with Jenkins, Docker, and Spinnaker to create CI/CD pipelines for hundreds of Rails Apps and Services across the Population Health org to use to deploy across multiple clouds.</p>
+					</li>
+					<li>
+						<p>Multiple projects on Observability and Performance like automating New Relic and Splunk alerts, enhancements for better distributed tracing, and product KPI and Error Budget Analysis.</p>
+					</li>
+					<li>
+						<p>Pioneered deployments for our team to the AWS Cloud for the first time and worked through multiple waves to seamlessly migrate hundreds of clients workloads to those AWS datacenters without downtime.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Awards</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Site Reliability Engineering Spotlight</li>
+					<li>Cerner Masters</li>
+					<li>Leadership - Dev Achievement Award</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Kansas State University</h2>
+					<p class="subDetails">2009-2014</p>
+					<p>Bachelor of Science (B.S.) in Computer Software Engineering</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<!-- <section>
+			<div class="sectionTitle">
+				<h1>Fun</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<p>To learn more about Nrgok, I decided to use this as an excuse to play with it. I setup
+						<a href="https://github.com/inconshreveable/ngrok/blob/master/docs/SELFHOSTING.md">Ngrok V1</a>
+						on an EC2 instance behind an ALB using a Certificate and Domain I own. My Rasberry-Pi is running the Ngrok client connecting to it and serving this file. If you have the v1 Ngrok client, you can connect with the following config.yml file
+						<pre>
+							<code>
+server_addr: alexbezek.me:4443
+trust_host_root_certs: true
+							</code>
+						</pre>
+					</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section> -->
+	</div>
+</div>
+</body>
+</html>
